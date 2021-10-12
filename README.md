@@ -11,6 +11,7 @@ TBD
 
 ## Built with
 * [Bulma.io CSS framework](https://bulma.io/)
+* [GetForm.io](https://docs.getform.io/) - Contact form backend for generating an email upon completion of contact form
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 

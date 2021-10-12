@@ -1,3 +1,9 @@
+* {
+    font-family:'Lato', sans-serif;
+    font-weight:bold;
+    width: 100%;
+}
+
 .hero {
     background-image: url(../images/forest_hero.jpg);
     background-attachment: fixed;
@@ -5,7 +11,21 @@
     color: white;
 }
 
+/* Headshot image in the about section */
 img {
     height: auto;
     max-width: 100%;
+}
+
+/*Contact form styling */
+/* Keep font for placeholder text in input fields */
+::placeholder {
+    font-family:'Lato', sans-serif;
+}
+
+/* Submit contact form button*/
+.button {
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+    width: 100%;
 }

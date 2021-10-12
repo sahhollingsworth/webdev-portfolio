@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- Bulma CSS library-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- Font Awesome toolkit for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <!-- Google Fonts library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <!-- Custom app CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Sarah Hollingsworth | Portfolio</title>
@@ -51,6 +57,7 @@
     </header>
     <main>
         <section id="about">
+            <!-- container rectifies center spacing -->
             <div class="container">
                 <div class="column is-12">
                     <h1 class="title has-text-centered section-title">About Me</h1>
@@ -85,13 +92,56 @@
             </div>
         </section>
         <section id="work">
-            <h1 class="title has-text-centered section-title">My Work</h1>
+            <!-- container rectifies center spacing -->
+            <div class="container">
+                <h1 class="title has-text-centered section-title">My Work</h1>
+            </div>
         </section>
         <section id="resume">
-            <h1 class="title has-text-centered section-title">My Resume</h1>
+            <!-- container rectifies center spacing -->
+            <div class="container">
+                <h1 class="title has-text-centered section-title">My Resume</h1>
+            </div>
         </section>
         <section id="contact">
-            <h1 class="title has-text-centered section-title">Contact</h1>
+            <!-- container rectifies center spacing -->
+            <div class="container">
+                <!-- The header and the form itself are each full-width columns in this container -->
+                <div class="columns is-multiline">
+                    <div class="column is-12">
+                        <h1 class="title has-text-centered section-title">Reach Out</h1>
+                    </div>
+                    <div class="column is-12">
+                        <form action="https://sahhollingsworth.getform.com/6xp3w" method="POST">
+                            <div class="field">
+                                <label class="contact-label">Name</label>
+                                <div class="control">
+                                    <input type="text" name="name" class="input" placeholder="ex. Tam Honks">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="contact-label">Email Address</label>
+                                <div class="control">
+                                    <input type="email" name="email" class="input" placeholder="ex. thonks@gmail.com">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="contact-label">Message</label>
+                                <div class="control">
+                                    <textarea class="textarea" type="text" name="message"></textarea>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <button class="button is-success" type="submit">
+                                        <span>SEND</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
