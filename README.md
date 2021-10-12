@@ -6,7 +6,7 @@ It includes contact information and websites, links to repositories & applicatio
 ## Deployed Application
 [Click here to see my web development portfolio.](https://sahhollingsworth.github.io/webdev-portfolio/ "link to web development portfolio web application")
 
-![Image](.assets/images/portfolio-screenshot_readme.png "screenshot of web development portfolio")
+![Image](./assets/images/portfolio-screenshot_readme.png "screenshot of web development portfolio")
 
 ## Summary
 Future development on this project will be heavily focused on styling, spacing, and image improvements to ensure readability and pleasant consumability.
