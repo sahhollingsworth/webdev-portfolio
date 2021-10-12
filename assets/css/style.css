@@ -17,6 +17,36 @@ img {
     max-width: 100%;
 }
 
+/* Add Padding to all section titles */
+.section-title {
+    padding: 20px;
+}
+
+.project {
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+.project:hover {
+    box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+}
+
+/* Work section images for each project */
+#nostalgia-generator {
+    background-image: url(../images/work_nostalgia-generator.png);
+}
+
+#motown-quiz {
+    background-image: url(../images/work_motown-quiz.png);
+}
+
+#workday-scheduler {
+    background-image: url(../images/work_workday-scheduler.png);
+}
+
+#password-generator {
+    background-image: url(../images/work_password-generator.png);
+}
+
 /*Contact form styling */
 /* Keep font for placeholder text in input fields */
 ::placeholder {
