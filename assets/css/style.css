@@ -4,3 +4,8 @@
     background-size: cover;
     color: white;
 }
+
+img {
+    height: auto;
+    max-width: 100%;
+}
